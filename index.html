@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="mother">
+    <div id="home"></div>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home"><img id="website-logo" src="images/karimi_media_logo.png" alt="Website logo"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#story-section">Stories</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quotes</a>
+              <ul class="dropdown-menu"> <li><a class="dropdown-item" href="positive_statements.html">Positive statements</a></li> <li><a class="dropdown-item" href="quotes.html">!00 Positive Quotes</a></li> <li><a class="dropdown-item" href="#billionaires">What Billionaires say?</a></li> <li><a class="dropdown-item" href="#top-quotes-section">Top Quotes</a></li></ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" aria-disabled="true">Contact</a></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section id="hero_section">
+<!-- <button class="alllert" onclick="customAlert()">Alert</button> -->
+      <h1 id="hero-h1">Educational <span style=" background: linear-gradient(90deg, #e51616, rgb(51, 51, 51)); -webkit-background-clip: text; color: transparent;">MEDIA</span> <br/> for positive minds</h1> <br>
+      <p id="hero-p">Karimi Media is a community of positive thinking for talented minds around the world,<br> which provides you with quotes, videos, and positive statements of scientists in great designs and readable.</p>
+      <br/><br/>
+      <div class="input_div"> <input type="text" class="input" placeholder="What are you looking for?" required/> <button class="input_submit"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+    <div id="hero-br-div"><br/><br/></div><br/><br/><br/><br/>
+    </section>
+    <section id="scientists" class="card_section">
+      <h2 class="all-h2s"> Learn from the scientists. <br> <span style=" background: linear-gradient(90deg, #e51616, rgb(51, 51, 51)); -webkit-background-clip: text; color: transparent;"">What do they say?</span></h2>
+      <!-- card group -->
+      <!-- scientists cards -->
+      <div class="card-mother">
+      <div class="card-group">
+        <!-- card 2 -->
+        <div class="carrd">
+          <img class="card-img" src="images/fatima al-fihri.webp" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Fatima al-Fihri</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">Education is the key to <br> unlocking  the golden <br> door of freedom.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>The function of education is to teach one to think intensively and to think critically. Intelligence plus character – that is the goal of true education.</p> <p>The beautiful thing about learning is that no one can take it away from you.</p> <p>Education is not the filling of a pail, but the lighting of a fire.</p> <p>Education is the passport to the future, for tomorrow belongs to those who prepare for it today.</p> <p>Knowledge is like a garden: if it is not cultivated, it cannot be harvested.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+          <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small style="display: flex; justify-content: space-around;" class="text-body-secondary">800 AD <span>TUNISIA</span></small></div>
+        </div>
+        <!-- card 2 -->
+        <div class="carrd">
+          <img class="card-img" src="images/Ibn al-Haytham.jpeg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Ibn al-Haytham</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">Truth is sough for its own sake... finding the truth is difficult, and the road to it is rough.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>The duty of the man who investigates the writings of scientists, if learning the truth is his goal, is to make himself an enemy of all that he reads.</p><p>The seeker after truth is not one who studies the writings of the ancients and, following his natural disposition, puts his trust in them, but rather the one who suspects his faith in them and questions what he gathers from them.</p><p>The road to the truth is long and hard, but this is the road we must follow.</p><p>The seeker of truth is not afraid of failure, for truth will prevail in the end.</p><p>The first duty of the man who investigates the writings of scientists, if learning the truth is his goal, is to make himself an enemy of all that he reads.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+          <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small style="display: flex; justify-content: space-around;" class="text-body-secondary">965 AD <span>IRAQ</span></small></div>
+        </div>
+        <!-- card 3 -->
+        <div class="carrd">
+          <img class="card-img" src="images/albert anestein.jpeg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Albert Einsteint</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>Life is like riding a bicycle. To keep your balance, you must keep moving.</p><p>Anyone who has never made a mistake has never tried anything new.</p><p>Peace cannot be kept by force; it can only be achieved by understanding.</p><p>Try not to become a man of success, but rather try to become a man of value.</p><p>The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+          <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small style="display: flex; justify-content: space-around;" class="text-body-secondary">1879 AD <span>GERMANY</span></small></div>
+        </div>
+      </div>
+    </div>
+        <!-- card group -->
+              <div class="card-mother">
+              <div class="card-group">
+        <!-- card 1 -->
+        <div class="carrd">
+          <img class="card-img" src="images/Victor Hugo img.jpeg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Victor Hugo</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">What is history? An echo of the past in the future; a reflex from the future on the past.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>Adversity makes men, and prosperity makes monsters.</p><p>Short as life is, we make it still shorter by the careless waste of time.</p><p>To learn to read is to light a fire; every syllable that is spelled out is a spark.</p><p>Even the darkest night will end and the sun will rise.</p><p>Even the weariest river winds somewhere safe to s</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+          <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small style="display: flex; justify-content: space-around;" class="text-body-secondary">1802 AD <span>FRANCE</span></small></div>
+        </div>
+        <!-- card 2 -->
+        <div class="carrd">
+          <img class="card-img" src="images/charles darwin.jpg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Charles Darwin</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">It is not the strongest or the most intelligent who will survive but those who can best manage change.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.</p><p>A man who dares to waste one hour of time has not discovered the value of life.</p><p>In the long history of humankind (and animal kind, too) those who learned to collaborate and improvise most effectively have prevailed.</p><p>Ignorance more frequently begets confidence than does knowledge.</p><p>The love for all living creatures is the most noble attribute of man.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+          <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small style="display: flex; justify-content: space-around;" class="text-body-secondary">1809 AD <span>ENGLAND</span></small></div>
+        </div>
+        <!-- card 3 -->
+         <div class="carrd">
+          <img class="card-img" src="images/newton.jpg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Isaac Newton</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">Truth is ever to be found in the simplicity, and not in the multiplicity and confusion of things.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>To every action there is always opposed an equal reaction.</p><p>I can calculate the motion of heavenly bodies, but not the madness of people.</p><p>Tact is the knack of making a point without making an enemy.</p><p>If i have seen further it is by standing on the shoulders of giants.</p><p>We build too many walls and not enough bridges.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+          <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small style="display: flex; justify-content: space-around;" class="text-body-secondary">1643 AD <span>ENGLAND</span></small></div>
+        </div>
+              </div>
+            </div>   
+      <br>
+    </section>
+    <br><br><br>
+<section id="billionaires" class="card_section">
+  <h2 class="all-h2s">Listen to the Billionaires <br> <span style="background: linear-gradient(90deg, #e51616, rgb(51, 51, 51));-webkit-background-clip: text;color: transparent;">What is the secret of their success?</span></h2>
+      <!-- card group -->
+      <!-- scientists cards -->
+      <div class="card-mother">
+        <div class="card-group">
+         <!-- card 1 -->
+         <div class="carrd">
+          <img class="card-img" src="images/Elon musk.jpg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Elon Musk</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">Failure is an option here. If things are not failing, you are not innovating enough.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.</p><p>Persistence is very important. You should not give up unless you are forced to give up.</p><p>Some people don't like change, but you need to embrace change if the alternative is disaster.</p><p>When something is important enough, you do it even if the odds are not in your favor.</p><p>The first step is to establish that something is possible; then probability will occur.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+        <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small class="text-body-secondary">Net worth: US$200 billion <span style="padding-left: 85px;">2024</span></small></div>
+        </div>
+         <!-- card 2 -->
+        <div class="carrd">
+            <img class="card-img" src="images/bernard arnault.jpg" height="280" class="card-img-top" alt="..."/>
+            <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">bernard Arnault</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">I've always been more interested in the savoir-faire of a product than in the product itself.</p></div>
+            <div class="more-text" style="display: none;"> <br><p>The important thing is to maintain the vision, the objective, and to never be discouraged because it is difficult.</p><p>I think the DNA of LVMH is the sense of innovation and creativity. This is what we want to do.</p><p>We are moving toward an economic world where people will be more and more in need of well-made, beautiful objects that are also very exclusive.</p><p>I think that tomorrow will be more exciting than today.</p><p>The key is to transform the dream into projects and to act.</p></div>
+          <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+          <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small class="text-body-secondary">Net worth: US$233 billion <span style="padding-left: 85px;">2024</span></small></div>
+          </div>
+        <!-- card 3 -->
+        <div class="carrd">
+          <img class="card-img" src="images/jeff bezos.jpg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Jeff Bezos</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>If you double the number of experiments you do per year you’re going to double your inventiveness.</p><p>We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.</p><p>Your brand is what other people say about you when you’re not in the room.</p><p>A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.</p><p>The common question that gets asked in business is, 'why?' That's a good question, but an equally valid question is, 'why not?</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+        <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small class="text-body-secondary">Net worth: US$180 billion <span style="padding-left: 85px;">2024</span></small></div>
+        </div>
+    </div>
+    </div>
+          <!-- card group -->
+                <div class="card-mother">
+                <div class="card-group">
+                  <!-- card 1 -->
+         <div class="carrd">
+          <img class="card-img" src="images/alice-walton.jpg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Alice Walton</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">I don't think my motivation is to be wealthy; it's to do something I'm passionate about and to be great at it.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>I know far too well that wealth and opportunity are not distributed equally.</p><p>The arts enrich communities, elevate the quality of our lives, and inspire us to reach for the stars.</p><p>I have never been one to focus on negatives. I look at a glass half full and continue to hope for the best.</p><p>I believe that when we are in touch with our best selves, we are connected to the spirit of generosity."</p><p>I'm committed to supporting education because it's been my personal experience that education can be a great equalizer.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+        <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small class="text-body-secondary">Net worth: US$54 billion <span style="padding-left: 85px;">2024</span></small></div>
+        </div>
+        <!-- card 2 -->
+         <div class="carrd">
+          <img class="card-img" src="images/warren buffett.jpg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Warren Buffett</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">The best investment you can make is in yourself. The more you learn, the more you'll earn.</p></div>
+          <div class="more-text" style="display: none;"> <br><p>Price is what you pay. Value is what you get.</p><p>It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently.</p><p>Risk comes from not knowing what you're doing.</p><p>The stock market is designed to transfer money from the Active to the Patient.</p><p>The most important investment you can make is in yourself.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+        <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small class="text-body-secondary">Net worth: US$120 billion <span style="padding-left: 85px;">2024</span></small></div>
+        </div>
+        <!-- card 3 -->
+        <div class="carrd">
+          <img class="card-img" src="images/Mark-Zuckerberg.jpg" height="280" class="card-img-top" alt="..."/>
+          <div class="card-body"><div class="card-name-like-parent"><h3 class="card-title pt-2 pb-2">Mark Zuckerberg</h3> <button style="border: none; background-color: white;" class="like"><i style="font-size: 25px;" class="fa-regular fa-heart"></i></button></div><p class="card-text">The biggest risk is not taking any risk. in a world that's changing really</p></div>
+          <div class="more-text" style="display: none;"> <br><p>The question isn't, 'What do we want to know about people?', It's, 'What do people want to tell about themselves?'</p><p>The biggest mistake we've made as a company is betting on HTML5 over native.</p><p>The biggest risk is not taking any risk. In a world that's changing really quickly, the only strategy that is guaranteed to fail is not taking risks.</p><p>People think innovation is just having a good idea, but a lot of it is just moving quickly and trying a lot of things.</p><p>Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.</p></div>
+        <div style="text-align: end; margin-top: 10px;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'carrd')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+        <div class="card-footer" style="background-color: rgb(232, 232, 232)"><small class="text-body-secondary">Net worth: US$150 billion <span style="padding-left: 85px;">2024</span></small></div>
+        </div>
+            </div>
+</section>
+<br><br><br><br>
+<section id="top-quotes-section">
+     <!-- card group -->
+     <h2 class="all-h2s">Here are some short quotes in the best design.</h2>
+    <br><br>
+      <!-- scientists cards -->
+      <div class="card-mother">
+      <div style="gap: 22px; padding-bottom: 30px;" class="card-group">
+       <!-- card 1 -->
+       <div class="card top-quotes-cards">
+        <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Be strong, but not ... <span style="display: none;" class="t-q-text">Be strong, but not rude. Be kind, but not weak. Be humble, but not timid. Be proud, but not arrogant.</span></div><div class="t-q-number">01</div></div>
+        <img class="card-img" src="top-quotes-images/image-1.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+       </div>
+        <!-- card 2 -->
+        <div class="card top-quotes-cards">
+          <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Don't let someone ... <span style="display: none;" class="t-q-text">Don't let someone change who you are, to become what they need.</span></div><div class="t-q-number">02</div></div>
+          <img class="card-img" src="top-quotes-images/image-2.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+         </div>
+        <!-- card 3 -->
+        <div class="card top-quotes-cards">
+          <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Never forget ... <span style="display: none;" class="t-q-text">Never forget the people who take time out of their day to check up on you.</span></div><div class="t-q-number">03</div></div>
+          <img class="card-img" src="top-quotes-images/image-3.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+         </div>
+              </div>
+            </div>
+        <!-- card group -->
+        <div class="card-mother">
+          <div style="gap: 22px; padding-bottom: 30px;" class="card-group">
+           <!-- card 1 -->
+           <div class="card top-quotes-cards">
+            <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Don't wait for ... <span style="display: none;" class="t-q-text">Don't wait for everything to be perfect before you decide to enjoy your life.</span></div><div class="t-q-number">04</div></div>
+            <img class="card-img" src="top-quotes-images/image-4.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+           </div>  
+            <!-- card 2 -->
+            <div class="card top-quotes-cards">
+              <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Prioritize your peace ... <span style="display: none;" class="t-q-text">Prioritize your peace of mind, nothingugb"isi worth losing your peace over.</span></div><div class="t-q-number">05</div></div>
+              <img class="card-img" src="top-quotes-images/image-5.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+             </div>
+            <!-- card 3 -->
+            <div class="card top-quotes-cards">
+              <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Never judge people ... <span style="display: none;" class="t-q-text">Never judge people by their past. People learn. People change. People move on.</span></div><div class="t-q-number">06</div></div>
+              <img class="card-img" src="top-quotes-images/image-6.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+             </div>
+                  </div>
+                </div>
+<!-- #### -->
+                <div class="more-cards">
+  <div class="more-text" style="display: none;">
+    <br>
+    <div class="card-mother">
+      <div style="gap: 22px; padding-bottom: 30px;" class="card-group">
+       <!-- card 1 -->
+       <div class="card top-quotes-cards">
+        <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Appreciate good people ... <span style="display: none;" class="t-q-text">Appreciate good people. They are hard to come by.</span></div><div class="t-q-number">07</div></div>
+        <img class="card-img" src="top-quotes-images/image-7.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+       </div> 
+        <!-- card 2 -->
+        <div class="card top-quotes-cards">
+          <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Don't wait for ... <span style="display: none;" class="t-q-text">Don't wait for the perfect moment, take tye moment and make it perfect.</span></div><div class="t-q-number">08</div></div>
+          <img class="card-img" src="top-quotes-images/image-8.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+         </div> 
+        <!-- card 3 -->
+        <div class="card top-quotes-cards">
+          <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Never forget ... <span style="display: none;" class="t-q-text">Never forget what someone says to you when they are angry, because that's when the truth comes out.</span></div><div class="t-q-number">09</div></div>
+          <img class="card-img" src="top-quotes-images/image-9.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+         </div> 
+              </div>
+            </div>
+        <!-- card group -->
+        <div class="card-mother">
+          <div style="gap: 22px; padding-bottom: 30px;" class="card-group">
+           <!-- card 1 -->
+           <div class="card top-quotes-cards">
+            <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Don't let yourself <span style="display: none;" class="t-q-text">Don't let yourself be controlled by three things: people, money, or your past.</span></div><div class="t-q-number">10</div></div>
+            <img class="card-img" src="top-quotes-images/image-10.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+           </div>  
+            <!-- card 2 -->
+            <div class="card top-quotes-cards">
+              <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Not all storms ... <span style="display: none;" class="t-q-text">Not all storms come to disrupt your life, some come to clear your path.</span></div><div class="t-q-number">11</div></div>
+              <img class="card-img" src="top-quotes-images/image-11.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+             </div> 
+            <!-- card 3 -->
+            <div class="card top-quotes-cards">
+              <div class="top-quoutes-card-text"><div class="t-q-d-none-text">Don't fall for ... <span style="display: none;" class="t-q-text">Don't fall for sweet words. Fall for sweet efforts.</span></div><div class="t-q-number">12</div></div>
+              <img class="card-img" src="top-quotes-images/image-12.jpg" width="340" height="365" alt=""><span class="copy"><i class="fa-solid fa-copy"></i></span>
+             </div> 
+                  </div>
+                </div>
+  </div>
+  <div style="text-align: center; margin-top: 10px;" class="expand-button"><button style="font-size: 26px; background-color: transparent;" class="see-more" onclick="toggleExpand(this, 'more-cards')">see more <i class="fa-solid fa-chevron-down"></i></button></div>
+</div>
+<br><br>
+</section>
+<section id="story-section" style="background-color: #eceaea;" class="card_section">
+<br>
+  <h2 class="all-h2s">Click on any of the stories below to get to know them better</h2>
+  <div class="uiq-cards-parent">
+  <div class="stories-parent">
+    <!-- first story -->
+    <div class="stories">
+    <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank"><img class="story-card-img" src="images/crestiano_ronaldo.jpg" class="card-img-top" alt=""></a>
+      <div class="for-ld">
+        <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+      <h3 class="card-title">Crestiano Ronaldo</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+      </div> <br>
+      <div class="descriptor"><h5 class="card-text">Football</h5></div>
+    </div>
+    <!-- second story -->
+    <div class="stories">
+    <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank"><img class="story-card-img" src="images/elon-musk.jpg" class="card-img-top" alt=""></a>
+      <div class="for-ld">
+        <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+      <h3 class="card-title">Elon Musk</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+      </div> <br>
+      <div class="descriptor"><h5 class="card-text">Tasla, SpaceX</h5></div>
+    </div>
+    <!-- third story -->
+    <div class="stories">
+    <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Mohamed_Salah" target="_blank"><img class="story-card-img" src="images/muhammad_salah.jpg" class="card-img-top" alt=""></a>
+      <div class="for-ld">
+        <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+      <h3 class="card-title">Muhammad Salah</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+      </div> <br>
+      <div class="descriptor"><h5 class="card-text">Football</h5></div>
+    </div>
+    <!-- fourth story -->
+    <div class="stories">
+    <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Jeff_Bezos" target="_blank"><img class="story-card-img" src="images/jeff bezos copy.jpg" class="card-img-top" alt=""></a>
+      <div class="for-ld">
+        <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+      <h3 class="card-title">Jeff Bezos</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+      </div> <br>
+      <div class="descriptor"><h5 class="card-text">Amazon, Blue Origin</h5></div>
+    </div>
+    <!-- fifth story -->
+    <div class="stories">
+    <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Mark_Zuckerberg" target="_blank"><img class="story-card-img" src="images/mark-zuckerberg copy.jpg" class="card-img-top" alt=""></a>
+      <div class="for-ld">
+        <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+      <h3 class="card-title">Mark Zuckerberg</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+      </div> <br>
+      <div class="descriptor"><h5 class="card-text">Facebook</h5></div>
+    </div>
+    <!-- sixth story -->
+    <div class="stories">
+      <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Bill_Gates" target="_blank"><img class="story-card-img" src="images/bill-gates.jpg" class="card-img-top" alt=""></a>
+        <div class="for-ld">
+          <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+        <h3 class="card-title">Bill Gates</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+        </div> <br>
+        <div class="descriptor"><h5 class="card-text"></h5>Microsoft, philanthropy</div>
+      </div>
+      <!-- seventh story -->
+      <div class="stories">
+        <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Aliko_Dangote" target="_blank"><img class="story-card-img" src="images/Aliko-dangotes.jpg" class="card-img-top" alt=""></a>
+          <div class="for-ld">
+            <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+          <h3 class="card-title">Aliko Dangote</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+          </div> <br>
+          <div class="descriptor"><h5 class="card-text">Dangote Group</h5></div>
+        </div>
+     <!-- eighth story -->
+    <div class="stories">
+    <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Tim_Cook" target="_blank"><img class="story-card-img" src="images/tim-cooc.jpg" class="card-img-top" alt=""></a>
+      <div class="for-ld">
+        <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+      <h3 class="card-title">Tim Cooc</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+      </div> <br>
+      <div class="descriptor"><h5 class="card-text"></h5>Apple</div>
+    </div>
+              <!-- ninth story -->
+         <div class="stories">
+          <a class="story-card-linked" href="https://en.wikipedia.org/wiki/LeBron_James" target="_blank"><img class="story-card-img" src="images/LeBorn-James.jpg" class="card-img-top" alt=""></a>
+            <div class="for-ld">
+              <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+            <h3 class="card-title">LeBorn James</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+            </div> <br>
+            <div class="descriptor"><h5 class="card-text"></h5>Basketball</div>
+          </div>
+          <!-- tenth story -->
+         <div class="stories">
+          <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Jack_Ma" target="_blank"><img class="story-card-img" src="images/jack-ma.jpg" class="card-img-top" alt=""></a>
+            <div class="for-ld">
+              <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+            <h3 class="card-title">Jack Ma</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+            </div> <br>
+            <div class="descriptor"><h5 class="card-text"></h5>Alibaba Group</div>
+          </div>
+          <!-- eleventh story -->
+         <div class="stories">
+          <a class="story-card-linked" href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank"><img class="story-card-img" src="images/Larry-page.jpeg" class="card-img-top" alt=""></a>
+            <div class="for-ld">
+              <button style="border: none; background-color: #effafe;" class="like"><i style="font-size: 30px;" class="fa-regular fa-heart"></i></button>
+            <h3 class="card-title">Larry Page</h3><button style="border: none; background-color: #effafe;" class="favorite"><i style="font-size: 30px;" class="fa-regular fa-bookmark"></i></button>
+            </div> <br>
+            <div class="descriptor"><h5 class="card-text"></h5>Oracle</div>
+          </div>
+                    <div class="stories">
+                        <div class="placeholder story-card-img"></div>
+                        <p class="card-text placeholder-glow">
+                          <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 15px;"><div style="width: 33px; height: 33px;" class="placeholder"></div><h5 class="placeholder col-7"></h5><div style="width: 33px; height: 33px;" class="placeholder"></div></div>
+                          <span class="placeholder col-4"></span><span class="placeholder col-4 pla-2-3"></span><span class="placeholder col-5 pla-2-3"></span>
+                        </p>
+                    </div>
+                    <div class="stories">
+                      <div class="placeholder story-card-img"></div>
+                      <p class="card-text placeholder-glow">
+                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 15px;"><div style="width: 33px; height: 33px;" class="placeholder"></div><h5 class="placeholder col-7"></h5><div style="width: 33px; height: 33px;" class="placeholder"></div></div>
+                        <span class="placeholder col-4"></span><span class="placeholder col-4 pla-2-3"></span><span class="placeholder col-5 pla-2-3"></span>
+                      </p>
+                  </div>
+                  <div class="stories">
+                    <div class="placeholder story-card-img"></div>
+                    <p class="card-text placeholder-glow">
+                      <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 15px;"><div style="width: 33px; height: 33px;" class="placeholder"></div><h5 class="placeholder col-7"></h5><div style="width: 33px; height: 33px;" class="placeholder"></div></div>
+                      <span class="placeholder col-4"></span><span class="placeholder col-4 pla-2-3"></span><span class="placeholder col-5 pla-2-3"></span>
+                    </p>
+                </div>
+                <div class="stories">
+                  <div class="placeholder story-card-img"></div>
+                  <p class="card-text placeholder-glow">
+                    <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 15px;"><div style="width: 33px; height: 33px;" class="placeholder"></div><h5 class="placeholder col-7"></h5><div style="width: 33px; height: 33px;" class="placeholder"></div></div>
+                    <span class="placeholder col-4"></span><span class="placeholder col-4 pla-2-3"></span><span class="placeholder col-5 pla-2-3"></span>
+                  </p>
+              </div>
+              <div class="stories">
+                <div class="placeholder story-card-img"></div>
+                <p class="card-text placeholder-glow">
+                  <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 15px;"><div style="width: 33px; height: 33px;" class="placeholder"></div><h5 class="placeholder col-7"></h5><div style="width: 33px; height: 33px;" class="placeholder"></div></div>
+                  <span class="placeholder col-4"></span><span class="placeholder col-4 pla-2-3"></span><span class="placeholder col-5 pla-2-3"></span>
+                </p>
+            </div>
+            <br>
+  </div>
+  </div>
+  <br><br>
+</section>
+<footer>
+  <div class="footer-parent-div">
+    <div class="parent-big-child">
+      <h2 style="color: #c50908; font-weight: bold;">KARIMI <span style="color: #1e202f;">MEDIA</span></h2><p>Karimi Media works on developing the talent of youth, empowering them for a bright future and supporting them all over the world.</p>
+      <div class="social-icons-div"><a href="https://www.facebook.com/profile.php?id=100090254793971" target="_blank"><img class="social-icons" src="icons/Facebook.png" alt=""></a><a href="https://www.instagram.com/hameed_karimi_official?igsh=MWVyZGg2OHZ6eHR5YQ==" target="_blank"><img class="social-icons" src="icons/Instagram2.png" alt=""></a><a href="https://www.linkedin.com/in/hamid-karimi-0479a72b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img class="social-icons" src="icons/LinkedIn.png" alt=""></a><a href="https://wa.me/93788198073" target="_blank"><img style="width: 46px;" class="social-icons" src="icons/Whatsapp_icon.png" alt=""></a><a href="mailto:hameedukarimi@gmail.com"><img class="social-icons" src="icons/Gmail.png" alt=""></a></div>
+    </div>
+    <div class="muliple-child-parent">
+    <div class="child"><h5>Our Solutions</h5> <br><p>Teach Students</p><p>Support Youth</p><p>Attract Talent</p></div>
+    <div class="child"><h5>Subjects</h5> <br><p>Education</p><p>Technology</p><p>Sport</p></div>
+    <div class="child"><h5>Company</h5> <br><p>About Us</p><p>Positive Statements</p><p>Posetive Quotes</p></div>
+    <div class="child"><h5>Help Center</h5> <br><p>Contact Us</p><p>Multiple Websites</p><p>Report a Problem</p></div>
+  </div>
+  </div>
+</footer>
+<!-- footer for mobile -->
+<div id="mobile_footer">
+  <div class="mobfoot-big-child"><h5 style="color: #c50908; font-weight: bold;">KARIMI <span style="color: #1e202f;">MEDIA</span></h5> <br><p>Karimi Media works on developing the talent of youth, empowering them for a bright future and supporting them all over the world.</p></div>
+  <div class="childs-mom">
+    <div class="children"><h5>Our Solutions</h5> <br><p>Teach Students</p><p>Support Youth</p><p>Attract Talent</p></div>
+    <div class="children"><h5>Company</h5> <br><p>About Us</p><p>Positive statements</p><p>Posetive Quotes</p></div>
+  </div>
+  <div class="mobfoot-social-icons-div"><a href="https://www.facebook.com/profile.php?id=100090254793971" target="_blank"><img class="mobfoot-social-icons" src="icons/Facebook.png" alt=""></a><a href="https://www.instagram.com/hameed_karimi_official?igsh=MWVyZGg2OHZ6eHR5YQ==" target="_blank"><img class="mobfoot-social-icons" src="icons/Instagram2.png" alt=""></a><a href="https://www.linkedin.com/in/hamid-karimi-0479a72b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img class="mobfoot-social-icons" src="icons/LinkedIn.png" alt=""></a><a href="https://wa.me/93788198073" target="_blank"><img style="width: 43px;" class="mobfoot-social-icons" src="icons/Whatsapp_icon.png" alt=""></a><a href="mailto:hameedukarimi@gmail.com"><img class="mobfoot-social-icons" src="icons/Gmail.png" alt=""></a></div>
+</div>
+</div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html#home"><img id="website-logo" src="images/karimi_media_logo.png" alt="Website logo"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"> <a class="nav-link" href="index.html#story-section">Stories</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quotes</a>
+                <ul class="dropdown-menu"> <li><a class="dropdown-item" href="positive_statements.html">Positive statements</a></li> <li><a class="dropdown-item" href="quotes.html">!00 Positive Quotes</a></li> <li><a class="dropdown-item" href="index.html#billionaires">What Billionaires say?</a></li> <li><a class="dropdown-item" href="index.html#top-quotes-section">Top Quotes</a></li></ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" aria-disabled="true">Contact</a></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div id="contianer">
+
+      <h1 class="quotes-h2">Some positive and motivational statements from historical scientists</h1> <br><br>
+      
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0 pb-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="p-profile_name-div"><img class="p-card_profile" src="images/Ibn al-Haytham.jpeg" alt=""> <h2 class="card-title">Ibn al-Haytham</h2></div> <br>
+            <h5><strong>Knowledge and science:</strong></h5>
+              <p style="font-size: 19px;" class="card-text">Knowledge is the lifeblood of discovery, flowing through the veins of curiosity and fueled by the flame of inquiry. The path to understanding is not paved with certainty but with the stones of doubt and skepticism. Through observation and experimentation, we uncover the hidden truths of the universe, peering into the depths of nature's mysteries. The scientific method, a beacon in the darkness of ignorance, guides our journey, illuminating the way forward with the light of reason. In the pursuit of knowledge, </p>
+                <div class="more-text" style="display: none;"><p style="font-size: 19px;" class="card-text">we stand on the shoulders of those who came before, building upon their discoveries to reach greater heights of understanding. Let us embrace the quest for truth with humility and perseverance, for in the pursuit of knowledge lies the essence of enlightenment.</p> <br></div>
+              <span style="text-align: start;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'card')">see more <i class="fa-solid fa-chevron-down"></i></button></span>
+              <span style="display: flex; justify-content: end;"><a href="https://en.wikipedia.org/wiki/Ibn_al-Haytham" class="btn btn-primary" target="_blank">Wikipedia</a></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="p-profile_name-div"><img class="p-card_profile" src="images/Ibn Sina.jpeg" alt=""><h2 class="card-title">Ibn Sina</h2></div> <br>
+            <h5><strong>Medicine and Philosophy:</strong></h5><p style="font-size: 19px;" class="card-text">In the realm of knowledge, the physician is both seeker and healer, navigating the intricate web of the human body with skill and compassion. Through the lens of philosophy, we peer into the depths of existence, seeking the fundamental truths that govern our world. The pursuit of wisdom is a journey of the soul, a quest for enlightenment that transcends the boundaries of time and space. As we unravel the mysteries of the universe, let us not forget the guiding principles of compassion and empathy, </p>
+                <div class="more-text" style="display: none;"><p style="font-size: 19px;" class="card-text">for true healing arises from the union of knowledge and humanity. In the pursuit of wisdom, let us strive to illuminate the path for others, sharing our insights and discoveries with generosity and humility. For in the quest for knowledge lies the essence of our humanity, and in the pursuit of wisdom, we find the true fulfillment of our souls.</p> <br></div>
+              <span style="text-align: start;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'card')">see more <i class="fa-solid fa-chevron-down"></i></button></span>
+              <span style="display: flex; justify-content: end;"><a href="https://en.wikipedia.org/wiki/Avicenna" class="btn btn-primary" target="_blank">Wikipedia</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0 pb-2">
+          <div class="card">
+            <div class="card-body">
+              <div class="p-profile_name-div"><img class="p-card_profile" src="images/al-khawarizmi.png" alt=""><h2 class="card-title">Al-Khwarizmi</h2></div> <br>
+            <h5><strong>Mathematics, Algebra, and the Beauty of Patterns:</strong></h5>
+              <p style="font-size: 19px;" class="card-text">In the realm of numbers, patterns emerge like constellations in the night sky, guiding the seeker of knowledge through the labyrinth of mathematics. Algebra, the language of equations, unlocks the secrets of the universe, revealing the hidden connections that bind the fabric of reality. Through the art of abstraction, we distill complexity into simplicity, finding beauty in the elegance of equations and the symmetry of solutions. In the quest for understanding, let us embrace the power of algebra as a tool for discovery, </p>
+                <div class="more-text" style="display: none;"><p style="font-size: 19px;" class="card-text">a bridge between the tangible and the abstract. As we unravel the mysteries of mathematics, let us remember the words of Al-Khwarizmi, the father of algebra, who illuminated the path for generations of seekers with his wisdom and insight.For in the world of numbers, the beauty of patterns awaits those who dare to explore its infinite depths.</p><br></div>
+              <span style="text-align: start;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'card')">see more <i class="fa-solid fa-chevron-down"></i></button></span>
+              <span style="display: flex; justify-content: end;"><a href="https://en.wikipedia.org/wiki/Al-Khwarizmi" class="btn btn-primary" target="_blank">Wikipedia</a></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="p-profile_name-div"><img class="p-card_profile" src="images/al-biruni.jpg" alt=""><h2 class="card-title">Al-Biruni</h2></div> <br>
+            <h5><strong>Astronomy, Geography, and the Quest for Knowledge:</strong></h5><p style="font-size: 19px;" class="card-text">In the vast expanse of the cosmos, we find the tapestry of existence woven with threads of light and shadow, guiding the wanderer through the labyrinth of the heavens. Astronomy, the study of celestial bodies, unveils the mysteries of the universe, revealing the secrets of distant stars and galaxies. Geography, the science of space and place, maps the contours of the Earth, tracing the paths of rivers and mountains that shape our world. In the pursuit of knowledge, let us follow in the footsteps of Al-Biruni, </p>
+                <div class="more-text" style="display: none;"><p style="font-size: 19px;" class="card-text">the polymath scholar whose insatiable curiosity led him to explore the depths of the cosmos and the breadth of the Earth. As we gaze upon the wonders of the universe, let us marvel at the ingenuity of the human mind and the boundless potential of discovery. For in the quest for knowledge, we find the true essence of enlightenment, illuminating the path forward with the light of wisdom and understanding.</p> <br></div>
+              <span style="text-align: start;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'card')">see more <i class="fa-solid fa-chevron-down"></i></button></span>
+              <span style="display: flex; justify-content: end;"><a href="https://en.wikipedia.org/wiki/Al-Biruni" class="btn btn-primary" target="_blank">Wikipedia</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0 pb-2">
+    <div class="card">
+      <div class="card-body">
+        <div class="p-profile_name-div"><img class="p-card_profile" src="images/omar khayyam.jpeg" alt=""><h2 class="card-title">Omar Khayyam</h2></div> <br>
+      <h5><strong>Poetry, Mathematics, and the Beauty of Life:</strong></h5><p style="font-size: 19px;" class="card-text">In the garden of existence, we find the blooming roses of joy and the withering thorns of sorrow, entwined in the tapestry of life's fleeting moments. Poetry, the language of the soul, weaves verses of beauty and melancholy, capturing the essence of human experience in the rhythm of words. Mathematics, the language of patterns and precision, unravels the mysteries of the universe, revealing the harmonious dance of numbers and shapes that underlie reality. In the quest for meaning, </p>
+          <div class="more-text" style="display: none;"><p style="font-size: 19px;" class="card-text">let us heed the wisdom of Omar Khayyam, the poet-philosopher whose verses echo through the corridors of time, reminding us of the fragility and splendor of existence. As we journey through the sands of time, let us savor each moment like a sip of wine, cherishing the laughter and the tears, the triumphs and the tribulations that shape our lives. For in the embrace of life's fleeting beauty, we find solace and fulfillment, transcending the boundaries of time and space with the eternal melody of our souls.</p> <br></div>
+        <span style="text-align: start;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'card')">see more <i class="fa-solid fa-chevron-down"></i></button></span>
+        <span style="display: flex; justify-content: end;"><a href="https://en.wikipedia.org/wiki/Al-Khwarizmi" class="btn btn-primary" target="_blank">Wikipedia</a></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 mb-4">
+    <div class="card">
+      <div class="card-body">
+        <div class="p-profile_name-div"><img class="p-card_profile" src="images/al-kindi.jpg" alt=""><h2 class="card-title">Al-Kindi</h2></div><br>
+      <h5><strong>Philosophy, Science, and the Quest for Truth:</strong></h5><p style="font-size: 19px;" class="card-text">In the realm of intellect, we embark on a journey of discovery, guided by the torchlight of reason and the compass of inquiry. Philosophy, the pursuit of wisdom, illuminates the path to understanding, unraveling the mysteries of existence with the precision of thought and the depth of reflection. Science, the quest for knowledge, unveils the secrets of the natural world, unlocking the treasures of nature's laws and phenomena. In the pursuit of truth, let us heed the words of Al-Kindi, the philosopher-scientist whose</p>
+          <div class="more-text" style="display: none;"><p style="font-size: 19px;" class="card-text">insights transcended the boundaries of time and culture, bridging the realms of thought and observation. As we navigate the seas of uncertainty, let us anchor our endeavors in the pursuit of truth, guided by the twin stars of reason and evidence. For in the quest for knowledge and wisdom, we find the true essence of enlightenment, enriching our lives with the boundless treasures of understanding and insight.</p><br></div>
+        <span style="text-align: start;" class="expand-button"><button class="see-more" onclick="toggleExpand(this, 'card')">see more <i class="fa-solid fa-chevron-down"></i></button></span>
+        <span style="display: flex; justify-content: end;"><a href="https://en.wikipedia.org/wiki/Al-Biruni" class="btn btn-primary" target="_blank">Wikipedia</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>

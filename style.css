@@ -1,0 +1,91 @@
+body{ font-family: Poppins, sans-serif !important; padding: 0; margin: 0; box-sizing: border-box; background-color:  rgb(239, 250, 254) }
+.close_btn{ color: black; width: 70px; height: 40px; position: relative; top: 42px; left: 180px; background-color: rgb(192, 190, 190); border: 2px solid rgb(47, 47, 47); border-radius: 30px;}
+.navbar{z-index: 1; background-color:  rgb(236, 248, 253); font-size: 20px; position: -webkit-sticky; position: sticky; top: 0}
+#website-logo{ width: 110px; height: 57px}
+@media only screen and (max-width: 768px) { #website-logo{ width: 85px; height: 50px;}}
+#hero_section{ width: 100%; background-image: url(images/background_image.png); background-size: 140rem 832px; background-position: center; background-repeat: no-repeat; padding-top: 40px; text-align: center}
+#hero-h1{ font-size: 62px; color: rgb(51, 51, 51)}
+#hero-p{ color: rgb(51, 51, 51); font-size: 17px;}
+@media only screen and (max-width: 768px) { #hero-h1 { font-size: 35px;} #hero-p { font-size: 16px; text-align: start; padding: 40px;}}
+@media only screen and (max-width: 768px) { .input_div { margin-top: -70px;} #hero-br-div{display: none;}}
+.input{ width: 600px; height: 43px; border-radius: 10px; border: 1px solid rgb(190, 66, 66); padding-left: 15px;}
+@media only screen and (max-width: 768px) {.input{ width: 92%; height: 38px;}}
+input::placeholder{ font-size: 17px; color: rgb(115, 138, 148);}
+.input_submit{ box-sizing: border-box; margin-left: -70px; font-size: 19px; width: 65px; height: 43px; border-radius: 10px; border: 1px solid rgb(190, 66, 66); background-color: rgb(224, 56, 56); color: white;}
+@media only screen and (max-width: 768px) { .input_submit{ width: 50px; height: 37px; margin-left: -54px;}}
+/* Style for the spinner */
+.search-spinner { position: relative; top: 4px; display: inline-block; width: 21px; height: 21px; border: 2px solid rgb(193, 193, 194); border-radius: 50%; border-top-color: rgb(224, 56, 56); animation: spin 1s linear infinite;}
+@keyframes spin { to { transform: rotate(360deg);}}
+.card_section{ text-align: center;}
+.all-h2s{ font-size: 40px; color: rgb(51, 51, 51); text-align: center; padding: 8px;}
+@media only screen and (max-width: 768px) { .all-h2s{ font-size: 28px;}}
+.card-mother{ display: flex; justify-content: center;}
+.carrd { transition: 0.28s; font-family: Verdana, Geneva, Tahoma, sans-serif; border-radius: 10px; width: 340px; height: auto; background-color: white; text-align: start; box-shadow: rgb(190, 186, 186) 0px 0px 2px 1px; padding: 13px; box-sizing: border-box; margin-top: 20px; margin-left: 20px;}
+.card-name-like-parent{ width: 314px; display: flex; justify-content: space-between; align-items: center;}
+.carrd:hover{ margin-top: 0; transition: 0.28s;}
+@media only screen and (max-width: 768px) { .carrd:hover { margin-top: 20px;}}
+.see-more{ width: auto; height: 3px; border: none; background-color: white; font-weight: bold; cursor: pointer;}
+.more-text { display: none;}
+@media only screen and (max-width: 768px) { .carrd{ margin-left: 0; padding: 10px;}}
+#top-quotes-section{}
+.top-quotes-cards{ width: 340px; height: 430px; background-color: transparent}
+.top-quoutes-card-text{ display: flex; justify-content: space-between; padding-left: 5px;}
+.t-q-text, .t-q-d-none-text{ font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; width: 300px;}
+.t-q-number{ width: 40px; font-size: 23px; border-left: 1px solid rgb(187, 176, 176); text-align: center;}
+.copy{ position: relative; left: 298px; bottom: 350px; width: 35px; height: 35px; font-size: 28px; text-align: center; color: white;}
+.copy:hover{color: white;}
+.copy:active{color: rgb(232, 230, 230);}
+.uiq-cards-parent{ padding: 18px; padding-left: 230px; padding-right: 230px;}
+@media only screen and (max-width: 768px) { .uiq-cards-parent { padding-left: 20px; padding-right: 0;}}
+.stories-parent{ border-top: 1px solid black; border-bottom: 1px solid black; padding: 25px 0; width: 100%; height: auto; display: flex; align-items: center; overflow-x: auto; gap: 23px;}
+.placeholder{ background-color: #f0f0f0; animation: pulse 1.5s ease-in-out infinite alternate;}
+@keyframes pulse {0% { background-color: #969696;} 100% { background-color: #232323;}}
+@media only screen and (max-width: 768px) { .pla-2-3 { display: none;}}
+.stories{ width: 390px; height: 520px; background-color: #effafe; border: 1px solid black; border-radius: 15px; flex: 0 0 auto; text-align: center;}
+@media only screen and (max-width: 768px) { .stories { width: 300px; height: 375px;}}
+.story-card-img{ width: 100%; height: 400px; border-radius: 15px 15px 0 0;}
+@media only screen and (max-width: 768px) { .story-card-img { width: 298px; height: 290px;}}
+.story-card-linked{ text-decoration: none; color: black;}
+.descriptor{ display: block;}
+@media only screen and (max-width: 768px) { .descriptor { display: none;}}
+.for-ld{ display: flex; justify-content: space-between; align-items: center; padding: 10px;}
+.for-sd{ display: flex; justify-content: space-between; align-items: center; padding: 10px;}
+@media only screen and (max-width: 768px) { .for-ld { margin-top: 15px;} .for-sd { margin-top: 0;}}
+footer{ width: 100%; height: 370px; background-color: #e2f2f2; display: flex;}
+@media only screen and (max-width: 768px) { footer { display: none;}}
+.footer-parent-div{ padding-left: 230px; padding-top: 70px; display: flex; justify-content: space-between;}
+.parent-big-child{width: 400px;}
+.social-icons-div{ width: 290px; height: 45px; display: flex; align-items: center; gap: 20px; padding-top: 10px;}
+.social-icons{ width: 35px;}
+.muliple-child-parent{ padding-left: 130px; padding-top: 20px; display: flex; justify-content: space-between; gap: 70px;}
+.child{ width: 170px;}
+#mobile_footer{ padding: 25px; width: 100%; height: 350px; font-size: small; background-color: #e2f2f2; display: none;}
+@media only screen and (max-width: 768px) { #mobile_footer { display: block;}}
+.childs-mom{ display: flex; justify-content: space-between;}
+.mobfoot-social-icons-div{ width: 100%; height: 50px; display: flex; justify-content: center; align-items: center; gap: 10px; padding-top: 5px;}
+.mobfoot-social-icons{ width: 30px;}
+.key_of_success{ width: 430px; height: 650px; font-size: 20px; text-align: center; overflow: scroll; box-shadow: rgb(190, 186, 186) 0px 0px 2px 1px; background-color: white; border: 1px solid black;}
+.key_of_success:hover{ transition: 0.3s ease; background-color:  rgb(201, 230, 240);}
+.key_card_img{ width: 410px; height: 404px;}
+/* qutotes section */
+.container{ padding-left: 100px; padding-right: 100px;}
+@media only screen and (max-width: 768px) { .container{ padding-left: 15px; padding-right: 15px;}}
+.quotes-h2{ font-size: 43px; color: rgb(51, 51, 51); text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+@media only screen and (max-width: 768px) { .quotes-h2{ font-size: 25px;}}
+.quotes-card{ margin-bottom: 27px;}
+.quotes-card-body{ box-shadow: rgb(190, 186, 186) 0px 0px 2px 1px; height: 350px; background-color: rgb(233, 248, 248); font-family: Verdana, Geneva, Tahoma, sans-serif; border-radius: 10px; text-align: center; display: flex; justify-content: center; align-items: center; font-size: 26px; color: rgb(4, 6, 67);}
+.scientists-names{ font-size: 22px;}
+@media only screen and (max-width: 768px) { .quotes-card-body { font-size: 20px; height: 260px;} .scientists-names{ font-size: 19px;}}
+.quotes-check{ height: 50px; display: flex; justify-content: center; align-items: center; display: none; margin-top: -37px;}
+.quotes-check-2{ height: 50px; display: flex; justify-content: center; align-items: center; display: none; padding-top: 5px; margin-top: -27px; padding-bottom: 7px;}
+@media only screen and (max-width: 768px) { .quotes-check { display: flex;} .quotes-check-2{ display: flex;}}
+/* Positive Thoughts page */
+#contianer{ padding: 70px 220px 0 220px;}
+@media only screen and (max-width: 768px) { #contianer { padding: 20px;}}
+.card{ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: box-shadow 0.3s ease;}
+.card:hover{box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);}
+.card-text{ font-size: 16px; line-height: 1.6; color: #666666;}
+.see-more { background-color: #4caf50; border: none; border-radius: 6px; font-size: 14px; cursor: pointer; transition: background-color 0.3s ease;}
+.see-more:hover{background-color: rgb(134, 21, 21);}
+.p-profile_name-div{ display: flex; align-items: center; gap: 20px;}
+.p-card_profile{ width: 80px; height: 80px; border-radius: 100%;}
