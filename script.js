@@ -1,8 +1,8 @@
 //for loading page spinner
 
-window.addEventListener('load', function(){
-    document.querySelector('iframe').style.display = 'none';
-  });
+// window.addEventListener('load', function(){
+//     document.querySelector('iframe').style.display = 'none';
+//   });
 
 // for submit spinner
 
